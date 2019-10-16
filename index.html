@@ -125,8 +125,8 @@ body {
     overflow-x: hidden;
 }
 #sidebar-wrapper {
-  min-height: 100vh;
-  position: fixed;
+  min-height: 200vh;
+  /*position: fixed;*/
   width: 40vh;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)!important;
   -webkit-transition: margin .25s ease-out;
@@ -156,7 +156,7 @@ img {
   color: #0ABAB5;
 }
 .navbar {
-    /*position: relative;*/
+    position: relative;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -181,7 +181,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     letter-spacing: .9px;
-    font-size: 16px;
+    font-size: 14px;
 }
 #sidebar-wrapper .sidebar-heading {
   padding: 0.975rem 3.3rem;
@@ -218,7 +218,6 @@ svg {
 }
 #page-content-wrapper {
   min-width: 100%;
-  margin-left: 30%;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -319,7 +318,6 @@ tbody, .bold {
     }
     #page-content-wrapper {
   min-width: 100%;
-  margin-left: 25%;
 }
 
     @media (max-width: 991px) {
@@ -327,10 +325,6 @@ tbody, .bold {
             margin-left: 0!important;
         }
 
-        #page-content-wrapper {
-  min-width: 100%;
-  margin-left: 30%;
-}
     }
 }
 @media (max-width: 768px) {
@@ -343,7 +337,6 @@ tbody, .bold {
   #page-content-wrapper {
     min-width: 0;
     width: 100%;
-     margin-left: 21%;
   }
 
 img {
@@ -415,7 +408,6 @@ tbody, .bold {
     #page-content-wrapper {
     min-width: 0;
     width: 100%;
-     margin-left: 24%;
   }
     
     .invoice-body.ml-4 button {
@@ -495,7 +487,7 @@ tbody, .bold {
 #page-content-wrapper {
     min-width: 0;
     width: 100%;
-     margin-left: 0;
+     /*margin-left: 0;*/
   }
 }
 </style>
